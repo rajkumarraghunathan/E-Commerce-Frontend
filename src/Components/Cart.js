@@ -6,7 +6,7 @@ import { removeFromCart } from "../Action/Action";
 // import 'react-datepicker/dist/react-datepicker.css';
 import { FaRupeeSign } from 'react-icons/fa';
 import Header from './Header';
-import PaymentForm from './Payement/Payement';
+// import PaymentForm from './Payement/Payement';
 
 
 const Cart = () => {
@@ -35,7 +35,7 @@ const Cart = () => {
         setDataQuantity(event.target.value);
     };
 
-    let amount;
+    var amount;
 
     return (
         <>

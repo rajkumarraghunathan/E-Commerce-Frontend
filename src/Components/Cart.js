@@ -68,7 +68,7 @@ const Cart = () => {
 
 
                                                     <div className='my-2'>Total Price: <FaRupeeSign />
-                                                        {amount = data.productPrice * dataQuantity}
+                                                        {data.productPrice * dataQuantity}
                                                     </div>
 
                                                 </div>

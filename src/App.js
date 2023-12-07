@@ -12,12 +12,12 @@ import AdminHomePage from './Components/AdminHomePage';
 import DeleteProduct from './Components/DeleteProduct';
 import ProductPage from './Components/ProductPage';
 import Cart from './Components/Cart';
-import Cookies from 'js-cookie';
+
 
 
 function App() {
 
-  const role = Cookies.get('role');
+
 
   return (
     <div className="App">

@@ -35,7 +35,7 @@ const Cart = () => {
         setDataQuantity(event.target.value);
     };
 
-    var amount;
+    // var amount;
 
     return (
         <>

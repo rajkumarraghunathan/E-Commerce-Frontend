@@ -52,9 +52,7 @@ const ProductPage = () => {
             {/* <HomeContentPage /> */}
             <HomePage />
             <div className='d-flex flex-wrap justify-content-center py-5'>
-                <div className='container'>
-                    <h1>Products</h1>
-                </div>
+
                 {isLoading ? (
                     <div className="d-flex justify-content-center">
                         <div className="spinner-border" role="status">
